@@ -46,5 +46,6 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.TOKEN }}
+          force: true
           # branch: ${{ github.head_ref }}
           branch: 'build051'
