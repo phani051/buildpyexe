@@ -27,6 +27,7 @@ jobs:
           python -m pip install --upgrade pip
           pipx install poetry
           pip install pyinstaller
+          pip install wheel
                 
       - name: Build
         run: 
